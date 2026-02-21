@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Keys
+*.pem
+*.key
+mern-key
+mern-key.pub
+
+# Env files
+.env
+
+# Node
+node_modules/
+
+# Ansible
+*.retry
