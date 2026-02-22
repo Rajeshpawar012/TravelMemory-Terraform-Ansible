@@ -237,6 +237,8 @@ cd ansible
 
 ansible-playbook -i inventory.ini db.yml --ask-vault-pass
 
+<img width="918" height="116" alt="image" src="https://github.com/user-attachments/assets/582309e3-06c7-4fc8-be88-c094f5e5e990" />
+
 ansible-playbook -i inventory.ini web.yml --ask-vault-pass
 
 <img width="941" height="446" alt="Screenshot 2026-02-22 160425" src="https://github.com/user-attachments/assets/6de3f7d2-40b0-48b9-8824-fa9c124d7af3" />
