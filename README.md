@@ -262,6 +262,22 @@ Backend API: (http://3.8.6.116:5000/hello)
 
 ---
 
+Terraform Destroy
+
+<img width="937" height="410" alt="image" src="https://github.com/user-attachments/assets/5694c155-b461-426f-9027-65d0c1b7c619" />
+
+<img width="926" height="452" alt="image" src="https://github.com/user-attachments/assets/2fcf7feb-20f6-44ff-9727-df1de23cd741" />
+
+EC2 delete
+
+VPC delete
+
+NAT delete
+
+Public IP delete
+
+MongoDB data delete
+
 ```
 MERN-DevOps-Assignment/
 │
