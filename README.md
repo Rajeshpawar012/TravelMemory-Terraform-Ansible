@@ -256,11 +256,12 @@ Backend API: (http://3.8.6.116:5000/hello)
 
 <img width="461" height="156" alt="Screenshot 2026-02-22 152915" src="https://github.com/user-attachments/assets/889c05d7-36be-4a4b-b12f-5ac4a6a3f804" />
 
+---
 
 <img width="893" height="446" alt="Screenshot 2026-02-22 135244" src="https://github.com/user-attachments/assets/44bffcf0-b691-40b0-a55e-f9304bec3596" />
 
-
 ---
+
 ```
 MERN-DevOps-Assignment/
 │
