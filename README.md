@@ -123,15 +123,39 @@ Outputs:
 ⚙ Configuration Management (Ansible)
 Web Server Automation
 
+<img width="955" height="464" alt="Screenshot 2026-02-22 000622" src="https://github.com/user-attachments/assets/373d9e8c-1622-4603-9495-163b3e451143" />
+
+---
+
 Install Node.js
+
+<img width="943" height="523" alt="Screenshot 2026-02-22 000714" src="https://github.com/user-attachments/assets/7e62b0bd-850c-4354-aca8-604749a14eef" />
+
+---
 
 Install PM2
 
+<img width="959" height="516" alt="Screenshot 2026-02-22 000913" src="https://github.com/user-attachments/assets/b02a7bd3-b928-4a40-8996-9718dc3ba471" />
+
+---
+
 Clone the MERN repository
+
+<img width="954" height="478" alt="Screenshot 2026-02-22 001037" src="https://github.com/user-attachments/assets/73028e9e-2dc3-497d-a98a-7d32197f2585" />
+
+---
 
 Install backend dependencies
 
+<img width="955" height="472" alt="Screenshot 2026-02-22 001322" src="https://github.com/user-attachments/assets/35474c41-ee23-410a-b7c7-2f809e004e8d" />
+
+---
+
 Generate .env dynamically using a template
+
+<img width="956" height="494" alt="Screenshot 2026-02-22 001748" src="https://github.com/user-attachments/assets/d9f1b39b-384d-4374-8f24-93a48dbfd765" />
+
+---
 
 Restart backend with updated environment variables
 
@@ -141,11 +165,23 @@ Install MongoDB
 
 Configure the MongoDB service
 
+<img width="941" height="445" alt="Screenshot 2026-02-22 152032" src="https://github.com/user-attachments/assets/f6ccbff8-71f4-48cf-b3e1-de20d6cb700b" />
+
+---
+
 Enable authentication
+
+<img width="950" height="325" alt="image" src="https://github.com/user-attachments/assets/7e5db72b-767c-4dd8-ac8f-d021f59381f2" />
+
+---
 
 Create:
 
 Admin user
+
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/19e60253-b1f2-4c11-98d2-ecc577ec1c72" />
+
+---
 
 Application user (least privilege)
 
@@ -164,13 +200,21 @@ admin → root access (admin DB only)
 
 traveluser → readWrite access (application DB only)
 
+<img width="930" height="460" alt="image" src="https://github.com/user-attachments/assets/c74822af-e0a0-465e-881e-b208535abf32" />
+
+
 Secret Management
 
 Sensitive credentials stored using Ansible Vault
 
+<img width="957" height="476" alt="image" src="https://github.com/user-attachments/assets/08d3866a-f4ec-4bd9-8276-12b318c0a997" />
+
 No passwords committed to Git
 
 .env and Terraform state files excluded via .gitignore
+
+<img width="956" height="478" alt="image" src="https://github.com/user-attachments/assets/266331ea-50bc-4973-93c0-08983b9d1975" />
+
 
 Network Security
 
@@ -178,20 +222,24 @@ SSH access restricted
 
 MongoDB is not publicly accessible
 
+<img width="958" height="520" alt="image" src="https://github.com/user-attachments/assets/5038104d-15e7-405f-b7a5-1b6e2ec22b51" />
+
 Security Groups configured for minimal exposure
 
-🔄 Deployment Workflow
-1️⃣ Provision Infrastructure
-
+- Deployment Workflow
+- Provision Infrastructure
+```
 cd terraform
 terraform init
 terraform apply
-
+```
 cd ansible
 
 ansible-playbook -i inventory.ini db.yml --ask-vault-pass
 
 ansible-playbook -i inventory.ini web.yml --ask-vault-pass
+
+<img width="941" height="446" alt="Screenshot 2026-02-22 160425" src="https://github.com/user-attachments/assets/6de3f7d2-40b0-48b9-8824-fa9c124d7af3" />
 
 🌐 Application Access
 
@@ -247,21 +295,20 @@ Production-level MongoDB Security
 
 Process Management using PM2
 
-## Resume Highlight
-
-Designed and automated secure MERN stack deployment on AWS using Terraform and Ansible with private MongoDB, dynamic environment templating, and encrypted secret management via Ansible Vault.
-
 ## Notes
 
 Vault password is not committed for security reasons.
 
 MongoDB is deployed in a private subnet and cannot be accessed publicly.
 
-Secrets are encrypted using AES256 via Ansible Vault.
+Secrets are encrypted with AES-256 using Ansible Vault.
+
+<img width="956" height="481" alt="Screenshot 2026-02-22 155428" src="https://github.com/user-attachments/assets/c73f2d8b-e76a-456e-8ae0-fc732844a241" />
+
 
 Deployment is fully automated and reproducible.
 
-✅ Project Status
+Project Status
 
 1 Infrastructure Provisioned
 
@@ -273,4 +320,14 @@ Deployment is fully automated and reproducible.
 
 5 Application Successfully Deployed
 
+## Resume Highlight
+
+Designed and automated secure MERN stack deployment on AWS using Terraform and Ansible with private MongoDB, dynamic environment templating, and encrypted secret management via Ansible Vault.
+
+Author
+```
+Rajesh Pawar
+DevOps Engineer
+
+```
 
