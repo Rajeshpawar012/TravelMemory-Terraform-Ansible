@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # Terraform
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
 *.tfvars
 
 # Keys
@@ -11,11 +10,16 @@ terraform.tfstate.backup
 mern-key
 mern-key.pub
 
-# Env files
+# Environment files
 .env
+*.env
+
+# Ansible Vault
+ansible/vault.yml
+.vault_pass.txt
 
 # Node
 node_modules/
 
-# Ansible
-*.retry
+# Logs
+*.log
