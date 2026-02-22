@@ -197,8 +197,16 @@ ansible-playbook -i inventory.ini web.yml --ask-vault-pass
 
 Frontend: (http://3.8.6.116/addexperience)
 
+<img width="940" height="502" alt="Screenshot 2026-02-22 135227" src="https://github.com/user-attachments/assets/ce623bba-d327-42f1-bac6-e0511f67b3d2" />
+
+---
+
 Backend API: (http://3.8.6.116:5000/hello)
 
+<img width="461" height="156" alt="Screenshot 2026-02-22 152915" src="https://github.com/user-attachments/assets/889c05d7-36be-4a4b-b12f-5ac4a6a3f804" />
+
+---
+```
 MERN-DevOps-Assignment/
 │
 ├── terraform/
@@ -219,7 +227,7 @@ MERN-DevOps-Assignment/
 ├── backend/
 ├── frontend/
 └── README.md
-
+```
 
 ## Key DevOps Concepts Demonstrated
 
