@@ -111,8 +111,14 @@ terraform apply
 ```
 
 Outputs:
-Public IP of Web Server
-Private IP of Database Server
+
+- Public IP of Web Server
+
+- Private IP of Database Server
+
+<img width="956" height="119" alt="image" src="https://github.com/user-attachments/assets/9ffe83bb-c441-4e25-8720-dc989d487d8e" />
+
+---
 
 ⚙ Configuration Management (Ansible)
 Web Server Automation
@@ -121,11 +127,11 @@ Install Node.js
 
 Install PM2
 
-Clone MERN repository
+Clone the MERN repository
 
 Install backend dependencies
 
-Generate .env dynamically using template
+Generate .env dynamically using a template
 
 Restart backend with updated environment variables
 
@@ -133,7 +139,7 @@ Database Server Automation
 
 Install MongoDB
 
-Configure MongoDB service
+Configure the MongoDB service
 
 Enable authentication
 
