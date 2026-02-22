@@ -16,6 +16,9 @@ The setup follows production-level best practices including private database sub
 
 ## Architecture Overview
 
+<img width="1536" height="1024" alt="ChatGPT Image Feb 22, 2026, 04_37_04 PM" src="https://github.com/user-attachments/assets/c9e2d7ca-8e2c-487d-b18d-d171e4bdac83" />
+
+
 ### Infrastructure Layout
             Internet
                 │
